@@ -42,9 +42,9 @@ This project presents a fully integrated IoT-based smart geyser and energy manag
 
 ---
 
-```mermaid
 ## UML Class Diagram
 
+```mermaid
 classDiagram
 class ESP32 {
 +setup()
@@ -127,7 +127,7 @@ WiFiReconnect --> Standby : WiFi OK
 | File/Folder           | Description                                       |
 |-----------------------|---------------------------------------------------|
 | main.ino              | Main firmware code                                |
-| /Schematic            | Schematic			                                    |
+| Schematic            | Schematic			                                    |
 
 ---
 
