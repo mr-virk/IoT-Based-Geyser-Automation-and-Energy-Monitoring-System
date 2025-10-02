@@ -92,14 +92,14 @@ ESP32 --> BlynkCloud
 
 ```mermaid
 flowchart TD
-A[System Startup] --> B[Hardware & LCD Init]
-B --> C[WiFi & Blynk Connect]
-C --> D[Main Loop: run_Tasks()]
-D --> E{Timer Interval}
-E -->|1 sec| F[Read Sensors: Voltage, Current, Temp, Water Level]
-F --> G[Check Geyser Function & Pump]
-G --> H[Update Relays, LEDs, Blynk, LCD]
-H --> D
+  A[System Startup] --> B[Hardware and LCD Init]
+  B --> C[WiFi and Blynk Connect]
+  C --> D[Main Loop run_Tasks]
+  D --> E{Timer Interval}
+  E -->|1 sec| F[Read Sensors and Water Level]
+  F --> G[Check Geyser and Pump]
+  G --> H[Update Relays LEDs Blynk LCD]
+  H --> D
 ```
 
 ---
